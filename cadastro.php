@@ -108,8 +108,8 @@
                         <label for="message">Série:</label>
                         <select class="select" id="select" name="serie">
                             <option value="1">1ª Serie</option>
-                            <option value="log">2ª Serie</option>
-                            <option value="adm">3ª Serie</option>
+                            <option value="2">2ª Serie</option>
+                            <option value="3">3ª Serie</option>
                         </select>
                     </div>
 
