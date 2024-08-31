@@ -98,9 +98,9 @@
                     <div class="form-group">
                         <label for="message">Periodo:</label>
                         <select class="select" id="select" name="periodo">
-                            <option value="info">Manhã</option>
-                            <option value="log">Tarde</option>
-                            <option value="adm">Noite</option>
+                            <option value="1">Manhã</option>
+                            <option value="2">Tarde</option>
+                            <option value="3">Noite</option>
                         </select>
                     </div>
                     
