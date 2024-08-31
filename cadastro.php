@@ -88,10 +88,10 @@
                     <div class="form-group">
                         <label for="select">Curso:</label>
                         <select class="select" id="select" name="curso">
-                            <option value="info">Informatica</option>
-                            <option value="log">Logistica</option>
-                            <option value="adm">Administração</option>
-                            <option value="mkt">Marketing</option>
+                            <option value="1">Informática</option>
+                            <option value="2">Logistica</option>
+                            <option value="3">Administração</option>
+                            <option value="4">Marketing</option>
                         </select>
 
                     </div>

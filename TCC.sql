@@ -8,6 +8,12 @@ CREATE TABLE CURSO(
     NOME VARCHAR(50) NOT NULL
 );
 
+insert into CURSO (NOME) values
+('Informática'),
+('Logistica'),
+('Administração'),
+('Marketing');
+
 CREATE TABLE PERIODO(
 	ID_PERIODO INT PRIMARY KEY AUTO_INCREMENT,
     NOME VARCHAR(50) NOT NULL
