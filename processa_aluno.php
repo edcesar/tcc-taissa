@@ -14,8 +14,8 @@ $curso = $_POST['curso'];
 
 //Comando de inserção do SQL
 
-$consulta = "INSERT INTO ALUNO (ID_ALUNO, NOME, DATA_NASC, FOTO, SERIE, PERIODO, CURSO)
- VALUES (NULL,'$nome', '$data_nasc','$foto', '$serie' ,'$periodo',$curso')";
+$consulta = "INSERT INTO ALUNO (ID_ALUNO, NOME, DATA_NASC, FOTO, SERIE, ID_PERIODO, ID_CURSO)
+ VALUES (NULL,'$nome', '$data_nasc','$foto', '$serie' ,'$periodo','$curso')";
 mysqli_query($conexao, $consulta);
 
 /*echo"<script type='text/javascript'>alert('Dados inseridos com sucesso')
