@@ -1,0 +1,6 @@
+margin: 0 auto; centraliza
+gap: "X"px;  Espaçamento entre as divs 
+."box":nth-child(x) Seleciona Uma div especifica dentro de uma div (Quando tem o mesmo nome)
+.container:nth-child(2) .box Selecinando as box do 2 container
+.container:nth-child(2) .box:nth-child(1) Selecinandoo 1 box do 2 container
+.container:nth-child(2) .box:nth-child(2) Selecinando o 2 box do 2 container 

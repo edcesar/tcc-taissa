@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação com Clique Simplificada</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .container img {
+            width: 150px;
+            transition: width 0.5s ease;
+            cursor: pointer;
+        }
+
+        .container img.active {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Imagem 1">
+        <img src="https://via.placeholder.com/150" alt="Imagem 2">
+    </div>
+
+    <script>
+        document.querySelectorAll('.container img').forEach(img => {
+            img.onclick = () => {
+                document.querySelector('.active')?.classList.remove('active');
+                img.classList.add('active');
+            };
+        });
+    </script>
+</body>
+</html>

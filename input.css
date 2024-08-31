@@ -1,0 +1,31 @@
+.input-imagem {
+    display: block;
+    margin: 20px auto; /* Centraliza o input horizontalmente e adiciona espaço acima e abaixo */
+    padding: 10px;
+    border-radius: 5px;
+    width: auto; /* Ajusta a largura do input ao conteúdo */
+    cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o input */
+    background-color: #f8f8f8; /* Cor de fundo opcional para melhorar a visibilidade */
+}
+.contrast-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  body.contrast {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .contrast a,
+  .contrast a:visited {
+    color: #6c3;
+  }
+  
+  .contrast a:hover,
+  .contrast a:focus {
+    color: #f00;
+  }

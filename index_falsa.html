@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="index.css"></style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="box"><img src="imagem/logo.png" height="100px"></div>
+        <div class="box"><h1>INSIRA SEU CARTÃO</h1></div>
+    </div>
+    <div class="container">
+        <div class="box"><img src="imagem/aceito.png" height="200"class="img"></div>
+        <div class="box"><img src="imagem/Cartao.png" height="200"class="img"></div>
+        <div class="box"><img src="imagem/recusado.png" height="200"class="img"></div>
+    </div>
+    <script>
+        document.querySelectorAll('.container img').forEach(img => {
+            img.onclick = () => {
+                document.querySelector('.active')?.classList.remove('active');
+                img.classList.add('active');
+            };
+        });
+    </script>
+</body>
+</html>

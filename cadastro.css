@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.image{
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.input-imagem {
+    display: block;
+    margin: 20px auto; /* Centraliza o input horizontalmente e adiciona espaço acima e abaixo */
+    padding: 10px;
+    border-radius: 5px;
+    width: auto; /* Ajusta a largura do input ao conteúdo */
+    cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o input */
+    background-color: #f8f8f8; /* Cor de fundo opcional para melhorar a visibilidade */
+}
+
+.imagem {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 40%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+.form-container {
+    flex: 2;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #e3e3e3;
+    margin-right: 50%;
+    margin-top: 1%;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="select"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #45a049;
+}
+.butao{
+    background-color: #1b3c59;
+    color: white;
+    margin-left:30%;
+   
+}
+.contrast-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  body.contrast {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .contrast a,
+  .contrast a:visited {
+    color: #6c3;
+  }
+  
+  .contrast a:hover,
+  .contrast a:focus {
+    color: #f00;
+  }

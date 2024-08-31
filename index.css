@@ -1,0 +1,57 @@
+body{
+    background-color: #DCDCDC;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    color: #1b3c59;
+    text-align: left;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.container .img {
+    transition: width 0.5s ease;
+    cursor: pointer;
+}
+
+.container .img.active {
+    width: 200px;
+}
+.container {
+    display: flex;
+    
+}
+
+.box {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    
+}
+.box:nth-child(2) {
+    margin: 0 auto;
+}
+
+/* Selecinando o 2 container */
+.container:nth-of-type(2) {
+    display: flex;
+    margin-top: 20%;    
+    
+}
+ /* Selecinando as box do 2 container */
+.container:nth-child(2) .box {
+    display: flex;
+    
+    }
+    /* Selecianando a 1 box do 2 container*/
+    .container:nth-child(2) .box:nth-child(1) {
+    margin-top: 0 auto;
+    margin-left: 10%;
+    
+}
+    /* Selecinando o 2 box do 2 container */
+    .container:nth-child(2) .box:nth-child(3) {
+    margin-top: 0 auto;
+    margin-right: 10%;
+}
