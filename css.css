@@ -3,6 +3,7 @@
     width:1888px;
     background:#B9AED6;
     border-radius:20px 20px;
+    
 }
 #bt{
     height:100px;
@@ -136,6 +137,8 @@ h1 {
 .proximo{
     margin-left: -900px;
  
+}
+.teste {
 }
 
 .rfid{
